@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    text-align: center;
+    margin-top:30px;
+    font-weight:bolder;
+}
+img{
+    margin:auto;
+    margin-bottom: 20px;
+    display:block;
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color:maroon;
+}
+
+
+button{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin:30px;
+    background-color: pink;
+    border: 2px dashed red;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.round{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
