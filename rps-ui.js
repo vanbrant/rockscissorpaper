@@ -39,7 +39,7 @@ if (roundNum === 10){
 
 function compare(playerChoice,compChoice) {
     if (playerChoice === compChoice){
-        score.textContent = `${playerScore} VS ${compScore}`;
+        score.textContent = `Player: ${playerScore} VS Computer: ${compScore}`;
         choice.textContent = `${playerChoice} VS ${compChoice}`;
         score.setAttribute("style",`color:rgb(${color1},${color2},${color3})`)
         choice.setAttribute("style",`color:rgb(${color1},${color2},${color3})`)
@@ -47,14 +47,14 @@ function compare(playerChoice,compChoice) {
     } else if (
         playerChoice === "ROCK" && compChoice === "PAPER" || playerChoice === "PAPER" && compChoice === "SCISSORS" || playerChoice === "SCISSORS" && compChoice === "ROCK") {
             compScore = ++compScore;
-            score.textContent = `${playerScore} VS ${compScore}`;
+            score.textContent = `Player: ${playerScore} VS Computer: ${compScore}`;
             choice.textContent = `${playerChoice} VS ${compChoice}`;
             score.setAttribute("style",`color:rgb(${color1},${color2},${color3})`)
             choice.setAttribute("style",`color:rgb(${color1},${color2},${color3})`)
     
             } else{
             playerScore = ++playerScore;
-            score.textContent = `${playerScore} VS ${compScore}`;
+            score.textContent = `Player: ${playerScore} VS Computer: ${compScore}`;
             choice.textContent = `${playerChoice} VS ${compChoice}`;
             score.setAttribute("style",`color:rgb(${color1},${color2},${color3})`)
             choice.setAttribute("style",`color:rgb(${color1},${color2},${color3})`)
